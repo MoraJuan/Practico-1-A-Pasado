@@ -1,14 +1,14 @@
 class Personal:
-    __apellido = None
     __nombre = None
-    __direccion = None
+    __apellido = None
     __dni = None
     __edad = None
+    __direccion = None
     __telefono = None
     __riesgo = None
     __nombreOrganismo = None
 
-    def __init__(self, apellido, nombre, direccion, dni, edad, telefono,riesgo,nombreOrganismo):
+    def __init__(self, nombre, apellido, dni, edad, direccion, telefono,riesgo,nombreOrganismo):
         self.__apellido = apellido
         self.__nombre = nombre
         self.__direccion = direccion

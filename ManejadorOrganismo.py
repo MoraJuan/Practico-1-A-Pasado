@@ -22,10 +22,10 @@ class ManejadorOrganismo:
                 self.__lista.append(UnOrganismo)
         print('a')
     
-    def contar(self):
+    def contar(self, Obj):
         for i in range(len(self.__lista)):
-            print('{}'.format(self.__lista[i].getNombre))
-            print('{}'.format(ManejadorPersonal.contarPersonas()))
-            print('{}'.format(ManejadorPersonal.contarPersonas2()))
+            print('{}'.format(self.__lista[i].getNombre()))
+            print('Edad:{}'.format(Obj.contarPersonas(str(self.__lista[i].getNombre()))))
+            print('Otro:{}'.format(Obj.contarPersonas2(str(self.__lista[i].getNombre()))))
 
 

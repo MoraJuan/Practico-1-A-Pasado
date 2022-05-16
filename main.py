@@ -7,4 +7,6 @@ if __name__ == '__main__':
 
     Obj.cargaLista()
     Obj2.cargaLista()
-    Obj2.contar()
+    Obj2.contar(Obj)
+    Org = input('Ingrese organizacion: ')
+    Obj.Ordena(Org)
